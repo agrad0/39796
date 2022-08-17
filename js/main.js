@@ -1,7 +1,7 @@
-let firstNumber = 3;
-let secondNumber = 5;
+let num1 = 3;
+let num2 = 5;
 function add(firstNumber, secondNumber){
-    let result = 4 + 6;
+    let result = firstNumber + secondNumber;
     return result;
 }
-console.log(add(firstNumber, secondNumber) );   
+console.log(add(num1, num2) );   
